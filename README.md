@@ -62,3 +62,7 @@ Below are the results of each of the machine learning models I created in this c
 - Low Risk: Precision: 100% Recall: 94%
 
 ## Summary
+The following conclusions can be drawn from looking at the results of the six models.
+- The first four models we created had low accuracy scores. The Balanced Random Forest Model had a better accuracy score (78.8%), and the Easy Ensemble Classifier had the best at 92.5%.
+- All six models show weak precision in assessing if the credit risk of a loan application is high. The Easy Ensemble Classifier has the best precision (7%) and recall scores (91%), which will allow it to determine high credit risk 91% of the time.
+- Since the Easy Ensemble Classifier had the best accuracy, precision, and recall scores of all the models, I would recommend that it be used to predict credit risk.
